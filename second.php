@@ -52,7 +52,7 @@ for($i=0;$i<=count($m)-1;$i++)
 */
 
 // 2-d array 
-
+/*
 $a1=array(array(10,20,30),array(10,20,30,40),array(60,70));
 
 for($i=0;$i<=count($a1)-1;$i++)
@@ -63,11 +63,31 @@ for($i=0;$i<=count($a1)-1;$i++)
    }
    print("<br>");
 }
+*/
 
+//require("funlib.php");
 
+require_once("funlib.php");
+require_once("funlib.php");
+require_once("funlib.php");
+
+//include("funlib.php");
+//welcome();
+
+print("<h1>Bye Bye </h1>");
 
    
-
+$x=10;
+if(isset($_REQUEST["t1"]))
+  {
+     $a=$_REQUEST["t1"];
+    print("Welcome");
+  }
+else 
+ {
+  print("Bye Bye");  
+  $a=0;
+ }
     ?>
   
     </h1>
