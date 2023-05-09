@@ -1,13 +1,10 @@
+<?php session_start(); ?>
 <html><body>
     <h1>
 
 <?php 
- $a=$_REQUEST["t1"];
- $b=$_REQUEST["t2"];
- $c=$_REQUEST["t3"];
- $d=$a + $b + $c;
-
- print("Addition is $d");
+ $a=$_SESSION["info"];
+  print("value of first page is $a");
 ?>
 
     </h1>
