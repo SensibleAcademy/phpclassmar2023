@@ -3,6 +3,29 @@
     <h1>I am C </h1>
 
 <?php 
+
+   //$x=date("d / m / y");
+   //$x=date("d / m / Y");
+   
+   //$x=date("d / M / Y");
+  echo(date_default_timezone_get());
+   date_default_timezone_set("Asia/Kolkata");
+   echo(date_default_timezone_get());
+
+   $x=date("d / m / Y h:i:sa");
+   echo($x."<br>");
+
+   $y=time();
+   echo($y."<br>");
+
+   $y=$y-100000;
+
+
+   $z=date("d / m / Y h:i:sa",$y);
+
+   echo("<br> $z");
+
+
    
    /*
    echo($_SERVER['PHP_SELF']."<br>");
