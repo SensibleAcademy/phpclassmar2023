@@ -37,5 +37,11 @@
      Display All Courses
    </a>  
 
-    </body>
+   <br><br> 
+<a href="chooseCourseForDelete.php">
+     Delete Single Courses
+   </a>  
+
+
+</body>
 </html>

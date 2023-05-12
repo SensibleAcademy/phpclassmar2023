@@ -12,3 +12,7 @@ body
     text-align: center;
     margin: 10px auto;
 }
+td ,th
+{
+    padding: 5px;
+}

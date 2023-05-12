@@ -11,6 +11,11 @@
       {
          echo("Your data has been deleted");
       }
+      else if($_REQUEST['resmsg']==2)
+      {
+         echo("Your data has been updated");
+      }
+     
 
      echo("</div>");
 
@@ -38,7 +43,10 @@
   echo("<td>".$row["fees"]."</td>");
   echo("<td>".$row["regfees"]."</td>");
 
-  echo("<td><a href='deleteCourse.php?did=$id'>Delete</a></td>");
+  echo("<td><a href='deleteCourse.php?did=$id'>Delete</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;");
+
+
+  echo("<a href='editCourse.php?did=$id'>Edit</a></td>");
 
   echo("</tr>");
   }
