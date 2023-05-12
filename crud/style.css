@@ -1,0 +1,14 @@
+body 
+{
+    padding: 20px;
+}
+#resmessage 
+{
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+}

@@ -10,11 +10,12 @@
  
   require_once("dbconnect.php");
 
-  mysqli_query($con,"insert into course(cname,tname,fees,regfees) values('$a','$b','$c','$d')");
+  mysqli_query($con,"insert into course(cname,tname,fees,regfees) values('$a','$b','$c','$d')") or die("Query Error -1");
 
-  echo("Your data has been saved");
+  
+  header("location:coursereg.php?resmsg=1");
    
-
+   
 ?>
 
 
