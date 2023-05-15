@@ -19,7 +19,7 @@
 ?>
 
         <h1>Course Registration</h1>
-        <form method="get" action="savedata.php">
+        <form method="post" action="savedata.php" enctype="multipart/form-data">
         Enter course name : <input type="text" name="txtCourseName"><br> <br>
 
         Enter teacher name : <input type="text" name="txtTeacherName"><br> <br>
@@ -28,6 +28,8 @@
         
         Enter course reg fee : <input type="text" name="txtRegFee"><br> <br>
         
+        Choose Course Image <input type="file" name="flImage"><br> <br>
+
         <input type="submit" value="Ok">
 
     </form>
